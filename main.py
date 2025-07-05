@@ -12,5 +12,27 @@ def fct_named_tuple():
 
     print(b, a)
 
+def sample():
+    class Person:
+        God = "YHWH"
 
-fct_named_tuple()
+        def __init__(self, name, age):
+            self.father: Person | None = None
+            self.__name = name
+            self.age = age
+
+        def __str(self):
+            return "Mbi la so"
+
+    p1 = Person("John", 36)
+
+    print(p1.__name)
+    print(Person.God)
+
+
+def main():
+    fct_named_tuple()
+    print("---")
+
+
+main()
